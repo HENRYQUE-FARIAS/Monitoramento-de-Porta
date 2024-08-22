@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="refresh" content="30" />
+<title>Sistema de Detecção de porta Aberta  </title>
+<style>
+  h2{
+    text-align:center;  
+  }
+    table {
+        text-align:center;
+        border-collapse: collapse;
+        width: 100%;
+        height: auto;
+        table-layout:fixed;
+        font-size:12px;
+        
+    }
+    th, td {
+        border: 1px solid #000000;
+        text-align: center;
+        padding: 8px;
+        width: 100px;
+            }
+    th {
+        background-color: #f2f2f2;
+        width: 100px;
+    }
+    .iframe-container {
+        position: relative;
+        width: auto;
+        padding-top: 1.0cm; /* 16:9 Aspect Ratio */
+        height: 179px;
+        top:auto;
+        
+    }
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+</head>
+<body>
+
+<h2>Sistema de Detecção de porta Aberta </h2>
+<!-- <div style='display: flex; justify-content: center; align-items: center; height: 20vh;'>-->
+  <!-- <img src='https://pacsafe.com.br/wp-content/uploads/2021/09/Logo-Pac-Safe-Portaria-Remota-1024x433.png' alt='Image' style='width:400px; height: 200px;'> -->
+  <!-- img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz1evY3ct-qw18LhXzYu7zKuAcTp25sQzhj6b27xQDMQ&s' alt='Image'style='width:auto; height: auto;'>-->
+  <!-- </div> -->
+  <br> </br>
+<table id="tabela">
+    <thead>
+        <tr>
+            <th>Condominio 1</th>
+            <th>Condominio 2</th>
+            <th>Condominio 3</th>
+            <th>Condominio 4</th>
+            <th>Condominio 5</th>
+            <th>Condominio 6</th>
+            <th>Condominio 7</th>
+            <th>Condominio 8</th>
+            <th>Condominio 9</th>
+            <th>Condominio 10</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><div class="iframe-container"><iframe src="http://192.168.0.117/" sandbox="allow-same-origin allow-scripts"></iframe></div></td>
+            <td><div class="iframe-container"><iframe src="http://192.168.0.85/" sandbox="allow-same-origin allow-scripts"></iframe></div></td>
+            <td><div class="iframe-container"><iframe src="http://192.168.0.104/" sandbox="allow-same-origin allow-scripts"></iframe></div></td>            
+        </tr>
+<tr>
+    <!--<th>Condominio 1</th>
+            <th>Condominio 2</th>
+            <th>Condominio 3</th>
+            <th>Condominio 4</th>
+            <th>Condominio 5</th>
+            <th>Condominio 6</th>
+            <th>Condominio 7</th>
+            <th>Condominio 8</th>
+            <th>Condominio 9</th>
+            <th>Condominio 10</th>
+</tr>
+
+        <tr>
+            <td><div class="iframe-container"><iframe src="http://192.168.0.117/" sandbox="allow-same-origin allow-scripts"></iframe></div></td>
+            <td><div class="iframe-container"><iframe src="http://192.168.0.85/" sandbox="allow-same-origin allow-scripts"></iframe></div></td>
+
+        </tr>
+        Adicione mais linhas conforme necessário -->
+    </tbody>
+</table>
+
+</body>
+</html>
